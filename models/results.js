@@ -1,17 +1,17 @@
 const jobAnswersData = {
-	seo: ['a2'],
-	frontend: ['a4'], 
-	design: ['a3'],
-	backend: ['a1','a4','a5'],
-	mobile: ['a6']
-}
+  seo: ["a2"],
+  frontend: ["a4"],
+  design: ["a3"],
+  backend: ["a1", "a4", "a5"],
+  mobile: ["a6"],
+};
 
 const jobsDefinitionData = {
-	seo: `Le SEO est en charge du référencement web d'une page`,
-	frontend: `Le développeur ou la développeuse frontend se charge de l'interface : interactions avec l'utilisateur, style, etc.`,
-	design: `La personne en charge du design va devoir préparer les maquettes du site`,
-	backend: `Le backend consiste en la partie émergée de l'iceberg : ce qui permet de faire tourner une application mais qui n'est pas visible par l'utilisateur`,
-	mobile: `Les développeurs mobile conçoivent des applications mobiles en natif (et non simplement en JavaScript)`
-}
+  seo: `The SEO is in responsible for the web referencing of a page`,
+  frontend: `The fron-end developer is responsoble for the interface: interactions with the user, style, etc.`,
+  design: `The person responsible for the design will have to prepare the models of the site`,
+  backend: `The back-end is the tip of the iceberg: it allows an application to run but is not visible to the user`,
+  mobile: `Mobile developers build mobile applications natively (not just in JavaScript)`,
+};
 
-module.exports = { jobAnswersData, jobsDefinitionData }
+module.exports = { jobAnswersData, jobsDefinitionData };

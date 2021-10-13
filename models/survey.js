@@ -1,10 +1,10 @@
 const survey = {
-	1: 'Votre site doit-il sauvegarder des données entrées par vos utilisateurs ?',
-	2: 'Votre application doit-elle impérativement apparaître en premier dans les résultats de recherche ?',
-	3: `Avez-vous déjà des maquettes pour l'application que vous voulez créer ?`,
-	4: `Le site comporte-t-il une fonction d'authentification ?`,
-	5: `Souhaitez-vous avoir plusieurs types de comptes pour votre application (administrateur, visiteur, utilisateur, etc). ?`,
-	6: `Avez-vous prévu une version mobile à part entière ?`
-}
+  1: "Should your site save data entered by your users?",
+  2: "Does your application need to appear first in search results?",
+  3: `Do you already have mockups for the application you want to create?`,
+  4: `Does the site have an authentication feature?`,
+  5: `Do you want to have multiple account types for your application (administrator, visitor, user, etc.)?`,
+  6: `Do you have a full-fledged mobile version planned?`,
+};
 
-module.exports = survey
+module.exports = survey;

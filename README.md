@@ -1,35 +1,34 @@
-# OpenClassrooms - React intermédiaire
+# OpenClassrooms - Intermediate React
 
-Ce repo contient le code de l'API dont vous aurez besoin pour le cours OpenClassrooms ------.
-Il va de paire avec [le repository de la partie frontend](https://github.com/OpenClassrooms-Student-Center/7150606-React-intermediaire.git).
-
+This repo contains the API code you will need for the OpenClassrooms course ------.
+It goes hand in hand with [the frontend repository](https://github.com/OpenClassrooms-Student-Center/7315991-Intermediate-React).
 
 ## Lancer l'API en local
 
-Pour suivre le cours, vous aurez besoin d'installer l'API en local sur votre machine. Pour cela :
-1. Faites un `git clone https://github.com/OpenClassrooms-Student-Center/7150606-API-React-intermediaire.git`
-2. Installez les `node_modules` avec `yarn`
-3. Faites tourner l'API avec `yarn start`
+To take the course, you will need to install the API locally on your machine. To do this:
 
+1. Make a `git clone https://github.com/OpenClassrooms-Student-Center/7150606-API-React-intermediaire.git`
+2. Install the `node_modules` with `yarn`.
+3. Run the API with `yarn start`.
 
-## Consommer l 'API
-L'API Shiny est une API REST. Si vous avez un doute sur ce qu'est une API REST, n'hésitez pas à jeter un oeil à l'excellent cours [Adoptez les API REST pour vos projets web. 
-](https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web). 
-Une fois lancée, cette API met plusieurs routes à votre disposition :
+## Consume the API
 
-- La route pour récupérer les profils des freelances :
-`GET /freelances`
+The Shiny API is a REST API. If you are not sure what a REST API is, feel free to take a look at the excellent course [Adopt REST APIs for your web projects.](https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web).
 
-- La route pour avoir le détail d'un profil de freelance :
-`GET /profile/?id={id}`
+Once launched, this API provides you with several routes:
 
-- La route pour avoir le questionnaire :
-`GET /survey/`
+- The route to retrieve freelance profiles:
+  `GET /freelancers`
 
-- La route pour obtenir le résultat du questionnaire :
-`GET /results/?a1={answer1}&a2={answer2}&a3={answer3}...`
+- The route to get the details of a freelance profile:
+  `GET /profile/?id={id}`
 
+- The route to get the questionnaire:
+  `GET /survey/`
 
-## Modifier l'API
+- The route to get the result of the questionnaire:
+  `GET /results/?a1={answer1}&a2={answer2}&a3={answer3}...`
 
-N'hésitez pas à explorer l'API pour tester. Cette base de code a été initialisée avec [Express Generator](https://expressjs.com/fr/starter/generator.html).
+## Modifying the API
+
+Feel free to explore the API to test. This code base has been initialized with [Express Generator](https://expressjs.com/fr/starter/generator.html).
